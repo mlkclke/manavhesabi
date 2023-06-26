@@ -24,7 +24,7 @@ public class Main {
        patlıcan = input.nextInt();
 
 
-       tutar = (perElma + perArmut + perDomates + perMuz + perPatlıcan );
+       tutar = (elma * perElma + armut * perArmut + domates * perDomates + muz * perMuz + patlıcan * perPatlıcan );
        System.out.println("Toplam Tutar :" + tutar);
 
     }
